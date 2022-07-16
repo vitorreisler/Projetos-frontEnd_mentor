@@ -1,0 +1,128 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Red Hat Display', sans-serif;
+
+}
+
+body {
+    position: relative;
+    background: url('../images/pattern-background-desktop.svg');
+    width: 100vw;
+    
+    
+}
+main {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 450px;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+}
+section.img > img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+section.summary {
+   
+    width: 450px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+section.summary > h1 {
+    font-size: 1.5em;
+    color: hsl(223, 47%, 23%);
+   
+}
+
+section.summary > p.content {
+    color: rgba(0, 0, 0, 0.493);
+    font-size: 16px;
+    box-shadow:  1px 1 px 1px black;
+    padding: 15px, 30px, 15px, 30px;
+    width: 300px;
+    margin: auto;
+    font-weight: 700;
+}
+section.plan {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.048);
+    padding: 20px;
+    width: 340px;
+    margin: auto;
+    border-radius: 20px;
+}
+section.plan > img {
+    margin-left: 45px;
+  
+}
+
+section.plan > p {
+    margin: auto;
+    font-family:'Red Hat Display', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+section.plan > a {
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+
+section.btn1 {
+    
+    width: 450px;
+    margin: auto;
+}
+section.btn1 > a {
+    display: block;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 94%);
+    text-decoration: none;
+}
+section.btn1 > a:hover {
+    border: 1px solid white;
+    transform: translate(-2px, -2px);
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+    transition: .3s;
+}
+section.btn2 {
+    width: 450px;
+    padding-bottom: 10px;
+    
+}
+section.btn2 > a {
+    display: block;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 94%);
+    text-decoration: none;
+}
+section.btn2 > a:hover {
+    border: 1px solid white;
+    transform: translate(-2px, -2px);
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+    transition: .3s;
+}
+
+

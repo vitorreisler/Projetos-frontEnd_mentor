@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main {
+    display: flex;
+    margin-top: 15vh;
+    justify-content: center;
+}
+section {
+    height: 400px;
+    max-width: 225px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px black;
+}
+section > img {
+    text-align: left;
+    padding-top: 10px;
+}
+section > h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    padding-top: 30px;
+    font-size: 2em;
+    color: white;
+    padding-bottom: 10px;
+}
+section > p {
+    text-align: left;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    padding-top: 15px;
+    color: #BFD9DB;
+
+}
+section>a {
+    font-family: 'Lexend Deca', sans-serif;
+    display: block;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    text-align:center ;
+    margin-top: 50px;
+    margin-left: 45px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    width: 100px;
+    transition: .4s;
+    }
+
+    .btn1 {
+        color:hsl(31, 77%, 52%);
+    }
+
+    .btn2 {
+        color:hsl(184, 100%, 22%);
+    }
+
+    .btn3 {
+        color:hsl(179, 100%, 13%);
+    }
+
+   .btn1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 2px solid white;
+    }
+    .btn2:hover {
+        background-color: hsl(184, 100%, 22%);
+        color: white;
+        border: 2px solid white;
+        }
+    .btn3:hover {
+        background-color: hsl(179, 100%, 13%);
+        color: white;
+        border: 2px solid white;
+        }    
+section.section1{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+section.section2{
+    background-color: hsl(184, 100%, 22%);
+}
+section.section3{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+@media (max-width: 920px) {
+    main {
+        flex-wrap: wrap;
+    }
+}
+
+footer {
+    padding: 10px;
+}
+
