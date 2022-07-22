@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html {
+    height: 100vh;
+    width: 100vw;
+}
+body {
+    position: relative;
+    background-color: hsl(257, 40%, 49%);
+    width: 100vw;
+    height: 100vh;
+}
+main {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    /* position: relative;
+    border: 1px solid black;
+    width: 90vw;
+    height: 97vh;
+    margin: auto; */
+}
+section.principal> img {
+    width: 50vw;
+    min-width: 380px;
+   
+}
+section.principal {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 70vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section.wrotepart {
+    /* flex-wrap: wrap; */
+    width: 50px;
+    min-width: 370px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+section.wrotepart > h1 {
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.897);
+    text-align: left;
+    padding-top: 50px;
+    
+    margin-left: 20px;
+}
+section.wrotepart > p.content {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.603);
+}
+section.wrotepart > a.btn {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100px;
+    color: hsl(257, 40%, 49%);
+    background-color: white;
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 1px 1px  5px rgba(0, 0, 0, 0.568);
+
+}
+section.wrotepart > a.btn:hover {
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+    box-shadow: 1px 2px 3px 1px black;
+    transition: .3s;
+    transform: translate(1px, 3px);
+}
+footer {
+    border: 1px solid red;
+    display: block;
+    margin-top: 600px;
+    //margin-left: 500px;
+    
+}
